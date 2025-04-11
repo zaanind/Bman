@@ -1,0 +1,72 @@
+{
+    "table_name": "zn_sys_cashbook",
+    "columns": [
+        {
+            "name": "id",
+            "type": "INT",
+            "null": "NOT NULL",
+            "default": null
+        },
+        {
+            "name": "date",
+            "type": "DATE",
+            "null": "NULL",
+            "default": "CURRENT_TIMESTAMP"
+        },
+        {
+            "name": "text",
+            "type": "TEXT",
+            "null": "NULL",
+            "default": null
+        },
+        {
+            "name": "payee",
+            "type": "TEXT",
+            "null": "NULL",
+            "default": null
+        },
+        {
+            "name": "class",
+            "type": "TEXT",
+            "null": "NULL",
+            "default": null
+        },
+        {
+            "name": "payment",
+            "type": "FLOAT",
+            "null": "NULL",
+            "default": null
+        },
+        {
+            "name": "n",
+            "type": "LONGTEXT",
+            "null": "NULL",
+            "default": null
+        },
+        {
+            "name": "deposit",
+            "type": "FLOAT",
+            "null": "NULL",
+            "default": null
+        },
+        {
+            "name": "balance",
+            "type": "FLOAT",
+            "null": "NULL",
+            "default": null
+        },
+        {
+            "name": "created_at",
+            "type": "DATETIME",
+            "null": "NULL",
+            "default": "CURRENT_TIMESTAMP"
+        },
+        {
+            "name": "updated_at",
+            "type": "DATETIME",
+            "null": "NULL",
+            "default": "CURRENT_TIMESTAMP"
+        }
+    ],
+    "php_filename": "cashbookdb.php"
+}
